@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <appender name="CLOUDWATCH" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="net.logstash.logback.encoder.LogstashEncoder">
+            <fieldNames>
+                <timestamp>timestamp</timestamp>
+            </fieldNames>
+            <customFields>{
+                "appName" :"Logging App",
+                "appId":"245445465"
+                }
+            </customFields>
+        </encoder>
+    </appender>
+
+    <root level="INFO">
+        <appender-ref ref="CLOUDWATCH" />
+    </root>
+</configuration>
