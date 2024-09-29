@@ -1,0 +1,2 @@
+This repo demonstrates the Implementation Of Structured Logging inJava Applications. This can directly be uploaded to AWS Lambda without any additional dependencies other than the ones mentioned in this demo. The logging can be customized as per need. 
+More detailed Reference: https://medium.com/engineered-publicis-sapient/consistent-logging-with-logstash-for-microservices-sharing-a-kubernetes-cluster-7c1aee7ec42f
